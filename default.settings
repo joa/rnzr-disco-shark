@@ -1,0 +1,20 @@
+{
+  "name": "audTest",
+  "package": "com.audTest",
+  "main": "main",
+  "version": "1.0",
+  "targets": [
+    "jvm",
+    "web",
+    "android"
+  ],
+  "debug": false,
+  "web": {
+    "js": "app.js",
+    "port": 9119
+  },
+  "jvm": {
+  	"width": 1280,
+  	"height": 720
+  }
+}
